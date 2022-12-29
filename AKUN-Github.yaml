@@ -1,5 +1,5 @@
 proxies:
-- name: "INDO \U0001F1EE\U0001F1E9 grpc"
+- name: Server-GitHub
   type: trojan
   server: arkan4.zayn-vpn2.my.id
   port: 443
