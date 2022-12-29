@@ -1,0 +1,12 @@
+proxies:
+- name: "INDO \U0001F1EE\U0001F1E9 grpc"
+  type: trojan
+  server: arkan4.zayn-vpn2.my.id
+  port: 443
+  password: 0032cbd1-f3b0-4ba1-b4ed-31bb94ee3f19
+  udp: true
+  sni: nusa-stb.bhm.my.id
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan
