@@ -1,0 +1,12 @@
+proxies:
+- name: TROJAN GO (CDN)
+  type: trojan
+  server: biru.janda.eu.org
+  port: 443
+  password: jagoanssh-mahmuda
+  udp: false
+  sni: sg1go.ipservers.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
