@@ -1,12 +1,12 @@
 proxies:
-- name: TROJAN GO (CDN)
+- name: Trojan WS (SNI)
   type: trojan
-  server: biru.janda.eu.org
+  server: sgdo4.kuotavpn.com
   port: 443
-  password: jagoanssh-mahmuda
-  udp: false
-  sni: sg1go.ipservers.xyz
+  password: 12afdc75-efe6-4a2a-89d7-0bc46beadebe
+  udp: true
+  sni: teams.live.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: "/trojanws"
