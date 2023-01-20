@@ -1,5 +1,5 @@
 proxies:
-- name: Trojan WS (SNI)
+- name: AKUN AUTO UPDATE
   type: trojan
   server: sgdo4.kuotavpn.com
   port: 443
